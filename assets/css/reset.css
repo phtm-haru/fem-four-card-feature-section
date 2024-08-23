@@ -1,0 +1,47 @@
+/* Fonts */
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url(../fonts/Fraunces/Fraunces-VariableFont.ttf) format("truetype");
+}
+/* ----- */
+
+/* --Colors-- */
+:root {
+  /* Primary */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+
+  /* Neutral */
+  --dark-blue: hsl(212, 21%, 14%);
+  --grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+/* -------- */
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cream);
+  font-size: 0.875rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+}
