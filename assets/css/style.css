@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 80px 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  font-size: clamp(1.75rem, 4.5vw, 3rem);
+  align-items: center;
+}
+
+.title span.extralight {
+  font-size: clamp(1.86rem, 4.5vw, 3rem);
+}
+
+.description {
+  opacity: 0.45;
+  font-size: clamp(1.0625rem, 4.5vw, 3rem);
+}
