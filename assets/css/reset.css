@@ -1,46 +1,49 @@
 /* Fonts */
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-ExtraLight.ttf) format("truetype"),
-    url(../fonts/Poppins-Regular.ttf) format("truetype"),
-    url(../fonts/Poppins-SemiBold.ttf) format("truetype"),
-    url(../fonts/Poppins-Bold.ttf) format("truetype"),
-    url(../fonts/Poppins-ExtraBold.ttf) format("truetype"),
-    url(../fonts/Poppins-Black.ttf) format("truetype");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap");
+.poppins-thin {
+  font-family: "Poppins", system-ui;
+  font-weight: 100;
+  font-style: normal;
 }
 
-.extralight {
-  font-family: "pel", system-ui;
+.poppins-extralight {
+  font-family: "Poppins", system-ui;
   font-weight: 200;
   font-style: normal;
 }
 
-.regular {
-  font-family: "prg", system-ui;
+.poppins-light {
+  font-family: "Poppins", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-.semibold {
-  font-family: "psb", system-ui;
+.poppins-semibold {
+  font-family: "Poppins", system-ui;
   font-weight: 600;
   font-style: normal;
 }
 
-.bold {
-  font-family: "pbd", system-ui;
+.poppins-bold {
+  font-family: "Poppins", system-ui;
   font-weight: 700;
   font-style: normal;
 }
 
-.extrabold {
-  font-family: "ped", system-ui;
+.poppins-extrabold {
+  font-family: "Poppins", system-ui;
   font-weight: 800;
   font-style: normal;
 }
 
-.black {
-  font-family: "pbl", system-ui;
+.poppins-black {
+  font-family: "Poppins", system-ui;
   font-weight: 900;
   font-style: normal;
 }
